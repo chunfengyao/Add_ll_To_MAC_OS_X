@@ -1,2 +1,2 @@
->/bin/ll echo "ls -l \$1"
-chmod +rx /bin/ll
+>/bin/ll echo "ls -l \$*"
+chmod ugo+rx /bin/ll
